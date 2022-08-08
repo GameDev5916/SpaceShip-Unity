@@ -1,0 +1,1814 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a777a8b22b4c6140a0d54c73a0fc525, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: 
+  difficulty: 2
+  cameraBackgroundColor: {r: 0, g: 0, b: 0, a: 0}
+  waves:
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
+  - asteroids:
+    - asteroidPrefab: {fileID: 1012758946109494, guid: d2f990e870c3568458084e682b45b291,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 02f2dd02ceb56b44c8bc04256ba036e3,
+        type: 3}
+      spawnCount: 10
+    - asteroidPrefab: {fileID: 1012758946109494, guid: 960f705bc4ee75449b6bec3ba891b915,
+        type: 3}
+      spawnCount: 10
+    enemies:
+    - enemyPrefab: {fileID: 1012758946109494, guid: 9b16d68ef0d9d1c4e9d0e80e103fcb71,
+        type: 3}
+      spawnCount: 10
+    - enemyPrefab: {fileID: 1349554863915838, guid: 5034a1830a1321f43bd5b23db5e3c7b9,
+        type: 3}
+      spawnCount: 10
+    totalSpawnDuration: 30
